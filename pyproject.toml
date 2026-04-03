@@ -1,0 +1,9 @@
+[project]
+name = "virgin-atlantic-flight-search"
+version = "1.0.0"
+description = "Pure-HTTP Virgin Atlantic flight search via curl_cffi"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "curl-cffi>=0.14.0",
+]
